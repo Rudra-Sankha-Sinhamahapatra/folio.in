@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const Skills: React.FC = () => {
   return (
-    <div className='max-w-5xl mx-auto'>
-      <div className='text-white text-center font-semibold mt-5 mb-8 text-3xl'>
+    <div className="max-w-5xl mx-auto">
+      <div className="text-white text-center font-semibold mt-5 mb-8 text-3xl">
         Skills
       </div>
 
- 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>   
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Languages</h2>
-          <div className='flex flex-wrap gap-3'>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Languages</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"
               alt="C"
@@ -35,10 +34,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-      
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Frontend</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Frontend</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
               alt="CSS3"
@@ -46,6 +44,10 @@ const Skills: React.FC = () => {
             <img
               src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
               alt="HTML5"
+            />
+             <img
+              src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
+              alt="Markdown"
             />
             <img
               src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
@@ -56,15 +58,15 @@ const Skills: React.FC = () => {
               alt="Next.js"
             />
             <img
-              src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
-              alt="Markdown"
+              src="https://img.shields.io/badge/Turborepo-EF4444.svg?style=for-the-badge&logo=Turborepo&logoColor=white"
+              alt="Turborepo"
             />
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Backend</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Backend</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
               alt="Node.js"
@@ -73,7 +75,21 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
               alt="Express.js"
             />
-              <img
+            <img
+              src="https://img.shields.io/badge/Hono-E36002.svg?style=for-the-badge&logo=Hono&logoColor=white"
+              alt="Hono js"
+            />
+            <img
+              src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
+              alt="JWT"
+            />
+
+            <img
+              src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white"
+              alt="Zod"
+            />
+
+            <img
               src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
               alt="Next.js"
             />
@@ -81,9 +97,10 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/Socket.io-010101.svg?style=for-the-badge&logo=socketdotio&logoColor=white"
               alt="Socket.io"
             />
-              <img
-             src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" 
-             alt="JWT" />
+            <img
+              src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
+              alt="JWT"
+            />
             <img
               src="https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white"
               alt="Redis"
@@ -92,9 +109,6 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"
               alt="Prisma"
             />
-               <img
-              src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white" 
-              alt="Zod" />
             <img
               src="https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white"
               alt="Mongoose"
@@ -102,9 +116,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Styling</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Styling</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
               alt="TailwindCSS"
@@ -120,9 +134,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Database</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Database</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
               alt="MySQL"
@@ -150,9 +164,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Devops</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Devops</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
               alt="AWS"
@@ -161,7 +175,7 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/CI/CD-%232671E5.svg?style=for-the-badge&logo=github-actions&logoColor=white"
               alt="CI/CD"
             />
-             <img
+            <img
               src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
               alt="Docker"
             />
@@ -172,9 +186,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white text-xl font-semibold mb-3'>Deployment</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Deployment</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"
               alt="Vercel"
@@ -187,16 +201,18 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
               alt="AWS"
             />
-                <img
+            <img
               src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
               alt="Cloudflare"
             />
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white font-semibold text-xl mb-3'>State Management</h2>
-          <div className='flex flex-wrap gap-6'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white font-semibold text-xl mb-3">
+            State Management
+          </h2>
+          <div className="flex flex-wrap gap-6">
             <img
               src="https://img.shields.io/badge/redux-%23764ABC.svg?style=for-the-badge&logo=redux&logoColor=white"
               alt="Redux"
@@ -208,9 +224,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className='border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all'>
-          <h2 className='text-white font-semibold text-xl mb-3'>Tools</h2>
-          <div className='flex flex-wrap gap-3'>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+          <h2 className="text-white font-semibold text-xl mb-3">Tools</h2>
+          <div className="flex flex-wrap gap-3">
             <img
               src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white"
               alt="Postman"
@@ -219,13 +235,12 @@ const Skills: React.FC = () => {
               src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
               alt="Github"
             />
-             <img
+            <img
               src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
               alt="Github"
             />
           </div>
         </div>
-
       </div>
     </div>
   );

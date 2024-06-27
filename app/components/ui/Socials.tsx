@@ -20,7 +20,7 @@ export function Socials() {
     }
 
   return (
-    <div className="h-48 relative w-22 overflow-hidden bg-transparent flex flex-col items-center justify-center rounded-lg mt-4 ml-12 hover:bg-black border border-white">
+    <div className="h-48 relative w-22 overflow-hidden bg-transparent flex flex-col items-center justify-center rounded-lg mt-4 ml-12 hover:bg-black border hover:-translate-y-1/4 transition-transform duration-300 border-white">
        <h2 className="text-xl text-white font-semibold">Socials</h2>
       <div className="absolute bottom-1 inset-0 w-full h-full bg-transparent z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <div className={cn("md:text-2xl text-xl font-serif  text-white relative z-20 px-4")}>
