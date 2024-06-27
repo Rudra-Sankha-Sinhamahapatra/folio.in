@@ -1,7 +1,42 @@
 "use client";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { FaFirefoxBrowser } from "react-icons/fa6";
 
 export const Projects: React.FC = () => {
+  const handleGithub=()=>{
+    window.open('https://github.com/Rudra-Sankha-Sinhamahapatra/MoneyTM-Payments-App')
+}
+
+const handleSite=()=>{
+    window.open('https://money-tm-payments-rudra.vercel.app/')
+}
+
+const handleGithub2=()=>{
+  window.open('https://github.com/Rudra-Sankha-Sinhamahapatra/Nexus-Quill')
+}
+
+const handleSite2=()=>{
+  window.open('https://nexus-quill.vercel.app/')
+}
+
+const handleGithub3=()=>{
+  window.open('https://github.com/Rudra-Sankha-Sinhamahapatra/Texon')
+}
+
+const handleSite3=()=>{
+  window.open('https://texon-web.vercel.app/')
+}
+
+const handleGithub4=()=>{
+  window.open('https://github.com/Rudra-Sankha-Sinhamahapatra/WebCode')
+}
+
+const handleSite4=()=>{
+  window.open('https://web-code-phi.vercel.app/')
+}
+
+
   return (
     <div className="max-w-5xl mx-auto">
       <div className="text-white text-center font-semibold mt-5 mb-8 text-3xl">
@@ -13,6 +48,14 @@ export const Projects: React.FC = () => {
           <h2 className="text-white text-xl font-semibold mb-3">
             MoneyTM Payments
           </h2>
+          <div className="flex flex-row gap-2 items-start mb-2">
+          <div className="cursor-pointer text-white" onClick={handleGithub}>
+            <FaGithub/>
+            </div>
+            <div className="cursor-pointer text-white" onClick={handleSite}>
+            <FaFirefoxBrowser/>
+            </div>
+            </div>
           <p className="text-white mb-3">
             A Payment site inspired by Paytm,having a good user animated
             interface.User can register to receive some money.They can send or
@@ -60,6 +103,15 @@ export const Projects: React.FC = () => {
 
         <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Nexus Quill</h2>
+          <div className="flex flex-row gap-2 items-start mb-2">
+          <div className="cursor-pointer text-white" onClick={handleGithub2}>
+            <FaGithub/>
+            </div>
+            <div className="cursor-pointer text-white" onClick={handleSite2}>
+            <FaFirefoxBrowser/>
+            </div>
+            </div>
+        
           <p className="text-white mb-3">
             A Blogging site,having a good user interface.User can post their,see
             other people blogs,read a specific blog.
@@ -114,6 +166,15 @@ export const Projects: React.FC = () => {
 
         <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Texon</h2>
+          <div className="flex flex-row gap-2 items-start mb-2">
+          <div className="cursor-pointer text-white" onClick={handleGithub3}>
+            <FaGithub/>
+            </div>
+            <div className="cursor-pointer text-white" onClick={handleSite3}>
+            <FaFirefoxBrowser/>
+            </div>
+            </div>
+        
           <p className="text-white mb-3">
             A Chatting site,having a friendly user interface.User can register
             by their name to join chat,can chat with other people ,read
@@ -162,6 +223,15 @@ export const Projects: React.FC = () => {
 
         <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Texon</h2>
+          <div className="flex flex-row gap-2 items-start mb-2">
+          <div className="cursor-pointer text-white" onClick={handleGithub4}>
+            <FaGithub/>
+            </div>
+            <div className="cursor-pointer text-white" onClick={handleSite4}>
+            <FaFirefoxBrowser/>
+            </div>
+            </div>
+        
           <p className="text-white mb-3">
             Webcode is a coding  site for beginners in web development.Users can code seemlessly in html,css,javascript having a friendly user interface.
           </p>
