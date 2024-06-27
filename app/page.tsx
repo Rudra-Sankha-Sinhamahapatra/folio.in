@@ -5,6 +5,7 @@ import Skills from "./components/ui/skills";
 import { Learning } from "./components/ui/Learning";
 import { Socials } from "./components/ui/Socials";
 import { Projects } from "./components/ui/Projects";
+import { Footer } from "./components/ui/footer";
 
 const Home: React.FC = () => {
   return (
@@ -28,6 +29,9 @@ const Home: React.FC = () => {
         </section>
         <section id="projects" className="mb-10 scroll-mt-20">
         <Projects/>
+        </section>
+        <section id="footer" className="scroll-mt-20">
+        <Footer/>
         </section>
       </div>
     </BackgroundGradientAnimation>
