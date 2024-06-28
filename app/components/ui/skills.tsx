@@ -2,13 +2,13 @@ import React from "react";
 
 const Skills: React.FC = () => {
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-4 md:px-0">
       <div className="text-white text-center font-semibold mt-5 mb-8 text-3xl">
         Skills
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Languages</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Frontend</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -64,7 +64,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Backend</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -116,7 +116,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Styling</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -134,7 +134,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Database</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -164,7 +164,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Devops</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -186,7 +186,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Deployment</h2>
           <div className="flex flex-wrap gap-3">
             <img
@@ -208,7 +208,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white font-semibold text-xl mb-3">
             State Management
           </h2>
@@ -224,7 +224,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white font-semibold text-xl mb-3">Tools</h2>
           <div className="flex flex-wrap gap-3">
             <img

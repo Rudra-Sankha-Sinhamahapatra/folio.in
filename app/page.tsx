@@ -11,15 +11,15 @@ const Home: React.FC = () => {
   return (
     <BackgroundGradientAnimation>
       <Navbar />
-      <div className="text-xl font-semibold text-white flex justify-center mt-4">
+      <div className="text-xl font-semibold text-white flex justify-center mt-4 md:mt-8">
         About
       </div>
-      <div className="min-h-screen w-full pt-20">
+      <div className="min-h-screen w-full pt-10 md:pt-20">
         <section id="home" className="mb-10 scroll-mt-20">
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-8">
             <Education />
             <Learning />
-            <div className="w-60">
+            <div className="w-full md:w-60">
               <Socials />
             </div>
           </div>
@@ -28,10 +28,10 @@ const Home: React.FC = () => {
           <Skills />
         </section>
         <section id="projects" className="mb-10 scroll-mt-20">
-        <Projects/>
+          <Projects />
         </section>
         <section id="footer" className="scroll-mt-20">
-        <Footer/>
+          <Footer />
         </section>
       </div>
     </BackgroundGradientAnimation>

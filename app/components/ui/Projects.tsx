@@ -38,13 +38,13 @@ const handleSite4=()=>{
 
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-4 md:px-0">
       <div className="text-white text-center font-semibold mt-5 mb-8 text-3xl">
         Projects
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">
             MoneyTM Payments
           </h2>
@@ -101,7 +101,7 @@ const handleSite4=()=>{
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Nexus Quill</h2>
           <div className="flex flex-row gap-2 items-start mb-2">
           <div className="cursor-pointer text-white" onClick={handleGithub2}>
@@ -164,7 +164,7 @@ const handleSite4=()=>{
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
           <h2 className="text-white text-xl font-semibold mb-3">Texon</h2>
           <div className="flex flex-row gap-2 items-start mb-2">
           <div className="cursor-pointer text-white" onClick={handleGithub3}>
@@ -221,8 +221,8 @@ const handleSite4=()=>{
           </div>
         </div>
 
-        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[120%] transition-all">
-          <h2 className="text-white text-xl font-semibold mb-3">Texon</h2>
+        <div className="border border-white bg-gray-800 p-4 rounded-md hover:scale-[105%]  md:hover:scale-[120%] transition-all">
+          <h2 className="text-white text-xl font-semibold mb-3">Webcode</h2>
           <div className="flex flex-row gap-2 items-start mb-2">
           <div className="cursor-pointer text-white" onClick={handleGithub4}>
             <FaGithub/>
