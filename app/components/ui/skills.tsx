@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills: React.FC = () => {
   return (
-    <div className="max-w-5xl mx-4 md:px-0">
+    <div className="max-w-5xl mx-4 md:mx-auto">
       <div className="text-white text-center font-semibold mt-5 mb-8 text-3xl">
         Skills
       </div>
